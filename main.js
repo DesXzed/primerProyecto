@@ -11,7 +11,7 @@ class UI {
     const productList = document.getElementById("product-list");
     const element = document.createElement("div");
     element.innerHTML = `
-      <div class="card text-center mx-auto text-white bg-secondary mb-4 " style="font-size: 18px; width: 18rem; background-color: #464E2E !important;">
+      <div class="card text-center mx-auto text-white bg-secondary mb-4 " style="font-size: 18px; width: 18rem; background-color: #3B6978 !important;">
           <div class="card-header">
           <h4 class="card-title" style="font-size: 24px;">Carrito</h4>
           </div>
