@@ -5,7 +5,7 @@
 }
 html {
   font-size: 62.5%;
-  background: #bb9981;
+  background: #eeeeee;
   height: 100%;
 }
 body {
@@ -18,19 +18,13 @@ header {
   padding: 0 0;
   top: 0;
   z-index: 1;
-  background-color: #534340;
+  background-color: #041c32;
   margin: auto;
 }
 .title-name {
-  text-align: center;
-  font-size: 5.5rem;
-  color: #c5d8a4;
-  font-weight: bold;
+  display: flex;
+  justify-content: center;
   margin: auto;
-}
-
-section {
-  background-color: #bb9981;
 }
 
 .container {
@@ -42,10 +36,59 @@ h4 {
 }
 
 .fondo {
-  background-color: #ceab93 !important;
-  color: #464e2e;
+  background-color: #322f3d !important;
+  color: #ededed;
 }
 
 .body-color {
-  background-color: #f4fcd9 !important ;
+  background-color: #dae1e7 !important ;
+}
+
+.rowed {
+  text-align: center;
+  padding: 20px;
+}
+
+#product-name {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+.container-box {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1px;
+  justify-content: center;
+}
+.img-box {
+  padding: 15px;
+}
+
+.imagen-position {
+  width: 250px;
+  height: 290px;
+  object-fit: cover;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.box-card {
+  text-decoration: none;
+}
+
+.imagen-title,
+.name-text {
+  text-align: center;
+  color: black;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+.imagen-title,
+.sp-sw {
+  color: purple;
+}
+
+.cost {
+  font-style: unset;
+  font-weight: bold;
 }
